@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv('D:/aiml/s4/hackathon/booksData.csv')
+df = pd.read_csv('booksData.csv')
 
 def filter_data(subjects, price_min, price_max, rating_min, rating_max, top_n=None):
     filtered_df = pd.DataFrame()  # Initialize as an empty DataFrame
